@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+*{
+    font-family: 'poppins', sans-serif;
+}
+
+header{
+    background-color: rgb(75, 80, 167);
+    padding: 2em;
+    width: 100%;
+    text-align: center;
+    color: white;
+    position: fixed;
+}
+
+img{
+    width: 10%;
+    padding: 0%;
+    margin-left: 45%;
+    margin-top: 240px;
+    background-color: rgb(78, 122, 204);
+    border-radius: 100%;
+    
+}
+
+footer{
+    background-color: rgb(75, 80, 167);
+    padding: 0.1%;
+    position: fixed;
+    bottom:0%;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+form{
+    padding: 2%;
+    margin-left: 40%;
+    margin-right: 40%;
+    background-color: rgb(167, 197, 255);
+    border-radius: 5%;
+    text-align: center;
+    gap: 32px;
+    
+}
+
+.result{
+    margin-left: 6%;
+    padding: 1%;
+    border-radius: 10%;
+    margin-top: 5%;
+    background-color: rgb(30, 98, 161);
+    border: 1%;
+    color: white;
+}
+
+body{
+    align-items: center;
+    background-color: rgb(236, 239, 255);
+}
+
+
+
+#butwoman{
+    border-radius: 5%;
+}
+
+#peso{
+    width: 100%;
+}
+
+#altura{
+    width: 100%;
+}
