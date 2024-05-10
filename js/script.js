@@ -1,4 +1,8 @@
 document.getElementById("butwoman").addEventListener("click", function () {
+    document.getElementById("butman").style.color = "black"
+    document.getElementById("butwoman").style.color = "white"
+    document.getElementById("butman").style.backgroundColor = "white"
+    document.getElementById("butwoman").style.backgroundColor = "rgb(151, 61, 124)"
     document.getElementById("myheader").style.backgroundColor = "rgb(151, 61, 124)";
     document.getElementById("myfooter").style.backgroundColor = "rgb(151, 61, 124)";
     document.getElementById("form").style.backgroundColor = "rgb(255, 176, 248)";
@@ -8,6 +12,10 @@ document.getElementById("butwoman").addEventListener("click", function () {
 }, false);
 
 document.getElementById("butman").addEventListener("click", function () {
+    document.getElementById("butwoman").style.color = "black"
+    document.getElementById("butman").style.color = "white"
+    document.getElementById("butwoman").style.backgroundColor = "white"
+    document.getElementById("butman").style.backgroundColor = "rgb(75, 80, 167)"
     document.getElementById("myheader").style.backgroundColor = "rgb(75, 80, 167)";
     document.getElementById("myfooter").style.backgroundColor = "rgb(75, 80, 167)";
     document.getElementById("form").style.backgroundColor = "rgb(167, 197, 255)";
